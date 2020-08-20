@@ -4,7 +4,7 @@ export default function Servicelist() {
         <div>
 <Container>        
 <Row className="mt-5">
-<Col xs={6} md={4}>
+<Col md={6}>
     <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col p-4 d-flex flex-column position-static">
     <h2 className="mb-2">MacGregor Marine Services</h2>
@@ -24,8 +24,8 @@ export default function Servicelist() {
 </Col>
 
 
-<Col>
-<Card style={{ width: '30rem' }}>
+<Col md={6}>
+<Card style={{ width: '20rem' }}>
   <Card.Img variant="top" src="barq.jpg" />
   </Card>
 </Col>
