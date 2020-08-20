@@ -12,7 +12,7 @@ export default function Header() {
   <Navbar.Brand href="#home">
   <img
         src="/Logo MML.PNG"
-        width="60"
+        width="150"
         height="60"
         className="d-inline-block align-top"
         alt="MacGregor Marine logo"
@@ -22,30 +22,17 @@ export default function Header() {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <AppLink href="/"><a className="nav-link mr-3">Accueil</a></AppLink>
-      <AppLink href="/services"><a className="nav-link mr-3">Services</a></AppLink>
-      <AppLink href="/particuliers"> <a className="nav-link mr-3">Particuliers</a></AppLink>
+      <AppLink href="/services"><a className="nav-link mr-3">Services et marchés</a></AppLink>
+      <AppLink href="/particuliers"> <a className="nav-link mr-3">Partenaires</a></AppLink>
      
     </Nav>
     <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
+    <Button className= "mr-5" variant="outline-success ">Mail: info@macgregor-ms.com</Button>
+      <Button variant="outline-success">Contact: +33749449619</Button>
     </Form>
   </Navbar.Collapse>
 </Navbar> 
-
 <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="Barge.jpg" 
-      width="200"
-      height="400"
-      alt="Barge"
-    />
-    <Carousel.Caption>
-      
-    </Carousel.Caption>
-  </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -71,6 +58,9 @@ export default function Header() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+
+
+
 </>
  )
 }
