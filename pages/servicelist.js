@@ -41,17 +41,17 @@ export default function Servicelist() {
         <Image src="location.jpg" className="text-center" roundedCircle  style={{ width: '18rem' }}/>
         <h4 className="text-center"> Nous intervenons sur le golfe de Guinée notamment au:</h4>
     <ul className="text-center">
-        <li>
+        <li className="text-center">
        <strong>Nigéria</strong> </li>
  
- <li><strong>Cameroun</strong> </li>
+ <li className="text-center"><strong>Cameroun</strong> </li>
   
- <li><strong>Guinée équatoriale</strong></li> 
+ <li className="text-center"><strong>Guinée équatoriale</strong></li> 
   
- <li><strong>Gabon</strong>  </li>
- <li><strong>Congo</strong>  </li>
- <li><strong>Angola</strong>  </li>
- <li><strong>Sao Tomé et principe</strong>  </li>
+ <li className="text-center"><strong>Gabon</strong>  </li>
+ <li className="text-center"><strong>Congo</strong>  </li>
+ <li className="text-center"><strong>Angola</strong>  </li>
+ <li className="text-center"><strong>Sao Tomé et principe</strong>  </li>
     </ul>
     
       </div>
