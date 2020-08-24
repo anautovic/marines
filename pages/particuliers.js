@@ -7,7 +7,7 @@ export default function Particuliers(){
         <div>
         <Header />
         <Container >
-            <Row mt-3>
+            <Row className="mt-3">
             <Particuliercontent />
             </Row>
         </Container>

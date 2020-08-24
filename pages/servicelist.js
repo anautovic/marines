@@ -38,9 +38,9 @@ export default function Servicelist() {
   <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
          <div className="col p-4 d-flex flex-column position-static">
 
-        <Image src="location.jpg" variant="center" roundedCircle  style={{ width: '18rem' }}/>
-        <h4 className= "align-center"> Nous intervenons sur le golfe de Guinée notamment au:</h4>
-    <ul className="align-center">
+        <Image src="location.jpg" className="text-center" roundedCircle  style={{ width: '18rem' }}/>
+        <h4 className="text-center"> Nous intervenons sur le golfe de Guinée notamment au:</h4>
+    <ul className="text-center">
         <li>
        <strong>Nigéria</strong> </li>
  

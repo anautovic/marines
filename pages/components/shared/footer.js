@@ -34,8 +34,8 @@ export default function Footer(){
           </Col>
         </Row>
 
-      <Row mt-2>
-				<Col xs={12} sm={12} md={12} mt-2 text-center text-white>
+      <Row className= "mt-2">
+				<Col xs={12} sm={12} md={12}className="mt-2 text-center text-white" >
         	<p className="h6 text-center">© Made by ARCHIPEL 2020 </p>
           
 				</Col>	
