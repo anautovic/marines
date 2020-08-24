@@ -1,4 +1,5 @@
-import { Row, Col, Card, Container } from 'react-bootstrap';
+import { Row, Col, Card, Container, Image } from 'react-bootstrap';
+//import {faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 export default function Servicelist() {
     return(
         <div>
@@ -10,13 +11,13 @@ export default function Servicelist() {
     <h2 className="mb-2">MacGregor Marine Services</h2>
     <ul>
         <li>
-        Transport fluviomaritime dans le golfe de Guinée </li>
+       <strong> Transport fluviomaritime dans le golfe de Guinée</strong> </li>
  
- <li>Mise à disposition d’attelage : Remorqueur + barge </li>
+ <li><strong>Mise à disposition d’attelage : Remorqueur + barge</strong> </li>
   
- <li>Remorquage et assistance</li> 
+ <li><strong>Remorquage et assistance</strong></li> 
   
- <li>Transbordement  </li>
+ <li><strong>Transbordement</strong>  </li>
     </ul>
     
       </div>
@@ -32,7 +33,44 @@ export default function Servicelist() {
 
 
       </Row>
+  <Row>
+  <Col xs={12} md={12}>
+  <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+         <div className="col p-4 d-flex flex-column position-static">
+
+        <Image src="location.jpg" variant="center" roundedCircle  style={{ width: '18rem' }}/>
+        <h4 className= "align-center"> Nous intervenons sur le golfe de Guinée notamment au:</h4>
+    <ul className="align-center">
+        <li>
+       <strong>Nigéria</strong> </li>
+ 
+ <li><strong>Cameroun</strong> </li>
+  
+ <li><strong>Guinée équatoriale</strong></li> 
+  
+ <li><strong>Gabon</strong>  </li>
+ <li><strong>Congo</strong>  </li>
+ <li><strong>Angola</strong>  </li>
+ <li><strong>Sao Tomé et principe</strong>  </li>
+    </ul>
+    
+      </div>
+      </div>
+      </Col>
+  </Row>
+
+   
+
       </Container>
+      <style jsx>{
+        `.mb-2{
+          color: #002e5d;
+          
+        }
+        `
+      }
+
+      </style>
         </div>
     )
 }

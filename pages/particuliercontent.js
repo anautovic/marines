@@ -7,19 +7,19 @@ export default function Particuliercontent() {
     <h4>Accompagne les industriels et les acteurs impliqués dans les projets tel que :  </h4>
     <ul className= "mb-3 ">
         <li>
-        La construction BTP : transport agrégats et du matériel sur site   
+       <strong> La construction BTP :</strong> transport agrégats et du matériel sur site   
         </li>
         <li>
-        L’exploitation de matières premières : Assistances aux exploitations pétrolières, forestières et minières 
+        <strong>L’exploitation de matières premières :</strong> Assistances aux exploitations pétrolières, forestières et minières 
         </li>
         <li>
-        Plantations : Transport de Fruits et légumes en conteneurs 
+       <strong> Plantations :</strong> Transport de Fruits et légumes en conteneurs 
         </li>
         <li>
-        Les industries de transformation
+       <strong> Les industries de transformation</strong>
         </li>
         <li>
-        Importateurs et exportateurs dans la sous-région CEMAC 
+        <strong>Importateurs et exportateurs dans la sous-région CEMAC</strong> 
         </li>
     </ul>
     <p> Afin de répondre aux
@@ -27,7 +27,15 @@ export default function Particuliercontent() {
          logistique et des plans d’exécution</p>
     </div>
     </div>
+    <style jsx>{
+        `.mb-2{
+          color: #002e5d;
+          
+        }
+        `
+      }
 
+      </style>
 
         </div>
     )
